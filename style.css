@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+#snow {
+    position: relative;
+    background: url(background-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#cards{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    background-color: #ffffff23 !important;
+    filter: none;
+    position: absolute;
+    width: 20rem;
+    top: 0 !important;
+    
+}
+.card * {
+    color: #ffff;
+}
+
+.cards-img{
+    max-height: 300px;
+    overflow: hidden;
+}
+.btn{
+    border-width: 2px !important;
+}
+.btn-outline-success{
+    font-weight: 900;
+    width: 100%;
+}
+.text-lg{
+    font-size: 30px !important;
+}
+@media (min-width:800px){
+    #snow{
+        height: 100% !important;
+    }
+}
