@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
     overflow: hidden;
 }
@@ -11,14 +7,13 @@ body{
     background: url(background-photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 #cards{
     position: absolute;
     z-index: 1;
     top: 0;
     width: 100%;
-    height: 100vh;
+    
 }
 .card{
     background-color: #ffffff23 !important;
@@ -46,9 +41,4 @@ body{
 }
 .text-lg{
     font-size: 30px !important;
-}
-@media (min-width:800px){
-    #snow{
-        height: 100% !important;
-    }
 }
